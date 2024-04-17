@@ -1,0 +1,29 @@
+#wapper {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid rgb(44, 165, 131);
+    background-color: blanchedalmond;
+}
+
+input[type="text"], button {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(44, 165, 131);
+}
+
+button {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight:bold;
+    color: rgb(71, 190, 111);;
+}
+h1 {
+    
+    color: rgb(71, 190, 111);
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>calculate</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wapper">
+    <div id="header">
+        <h1>Calculate</h1>
+    </div>
+    <div id="main-content">
+        <input type="text" id="inputA" placeholder="Nhập số A">
+        <br>
+        <input type="text" id="inputB" placeholder="Nhập số B">
+        <button onclick="resetInputs()">RESET</button>
+        <br>
+        <div id="calculation">
+            <button onclick="calculate('SUM')">SUM(+)</button>
+            <button onclick="calculate('SUBTRACT')">SUBTRACT(-)</button>
+            <button onclick="calculate('MULTIPLY')">MULTIPLY(*)</button>
+            <button onclick="calculate('DIVIDE')">DIVIDE(/)</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
